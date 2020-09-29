@@ -72,4 +72,20 @@ a:hover{
         padding-bottom: 40px;
     }
     
+    .grid-container{
+		display: grid;
+		grid-template-areas: 
+			'hero hero hero hero hero hero'
+			'call call call call call call'
+			'menu menu menu menu menu menu'
+			'header header header header header header'
+			'main main main main main main'
+			'right right right right right right'
+			'footer footer footer footer footer footer';
+		grid-gap: 10px;
+		grid-auto-flow: row;
+		background-color: mediumaquamarine;
+		padding: 10px;
+        
+    }
 }
