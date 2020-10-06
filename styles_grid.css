@@ -26,7 +26,26 @@
             padding: 20px 0;
             font-size: 30px;
         }
-
+h1, h2{
+	color: darkorange;
+}
+h1{
+	font-size: 1em;
+}
+h2{
+	font-size: .6em;
+}
+p{
+	font-size: .5em;
+	font-weight: normal;
+	text-align: start;
+	padding: 10px;
+	margin: 30px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
 /* Navigation starts here */
 #navbar{
     display: grid;
