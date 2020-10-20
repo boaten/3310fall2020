@@ -43,9 +43,45 @@ p{
 	margin: 30px;
 }
 img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
+
+.iframe-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    height: 0;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+audio{
+    width: 50%;
+   }
+
+.item5 >p{
+    font-size: .5em;
+    color: red;
+    text-align: center;
+}
+
+
+
 /* Navigation starts here */
 #navbar{
     display: grid;
@@ -107,4 +143,5 @@ a:hover{
 		padding: 10px;
         
     }
+
 }
